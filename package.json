@@ -1,0 +1,12 @@
+{
+  "name": "node-is-env",
+  "version": "0.1.0",
+  "description": "check the node env succinctly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["node", "environment"],
+  "author": "Nav Saini",
+  "license": "UNLICENSED"
+}
