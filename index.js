@@ -7,7 +7,7 @@ const _default = {
   staging: process.env.NODE_ENV === 'staging'
 };
 
-const generateFunction = (conf) => {
+const generateFunction = (conf = {}) => {
   for (let i = 0; i < Object.keys(conf).length; i++) {
     _default[Object.keys(conf)[i]] = process.env.NODE_ENV === conf[Object.keys(conf)[i]];
   }
