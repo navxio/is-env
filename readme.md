@@ -15,6 +15,12 @@ NODE_ENV=production node index.js
 console.log(isEnv.dev); // false
 ```
 
+Inbuilt strings:
+'development',
+'testing',
+'production',
+'staging'
+
 ### why
 I got tired of testing my node envs by typing process.env.NODE_ENV
 
