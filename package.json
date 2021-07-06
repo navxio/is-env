@@ -1,6 +1,6 @@
 {
   "name": "node-is-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "check the node env succinctly",
   "repository": "https://github.com/navxio/is-env",
   "main": "index.js",
